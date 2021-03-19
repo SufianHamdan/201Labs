@@ -6,7 +6,6 @@ let favColor = prompt('Is black My favourite color?');
 if(favColor.toLowerCase() === 'yes' || favColor.toLowerCase() === 'y')
 {
   alert('Correct, my favourite color is black');
-  // console.log('Correct, my favourite color is black');
   mark++;
 
 }
@@ -31,7 +30,6 @@ if(dogCat.toLowerCase() === 'yes' || dogCat.toLowerCase() === 'y')
 else if(dogCat.toLowerCase() === 'no' || dogCat.toLowerCase() === 'n')
 {
   alert('Correct, my favourite pet is a dog');
-  // console.log('Correct, my favourite pet is a dog');
   mark++;
 
 }
@@ -46,7 +44,6 @@ let summerWinter = prompt('I am a Summer person?');
 if(summerWinter.toLowerCase() === 'yes' || summerWinter.toLowerCase() === 'y')
 {
   alert('Correct, my favourite season is Summer');
-  // console.log('Correct, my favourite season is Summer');
   mark++;
 
 }
@@ -71,7 +68,6 @@ if(musicType.toLowerCase() === 'yes' || musicType.toLowerCase() === 'y')
 else if(musicType.toLowerCase() === 'no' || musicType.toLowerCase() === 'n')
 {
   alert('Correct, my favourite music type is Rock and Roll');
-  // console.log('Correct, my favourite music type is Rock and Roll');
   mark++;
 
 }
@@ -91,7 +87,6 @@ if(missyClean.toLowerCase() === 'yes' || missyClean.toLowerCase() === 'y')
 else if(missyClean.toLowerCase() === 'no' || missyClean.toLowerCase() === 'n')
 {
   alert('Correct, I am a Clean person');
-  // console.log('Correct, I am a Clean person');
   mark++;
 
 }
@@ -131,7 +126,7 @@ while(noAttempt > 1)
 alert('Can you guess what language do i know');
 let attempts = 6;
 let myAnswer = ['c#','html','css','javascript','java', 'sql'];
-//let userAnswer = prompt('type the correct answer \n (c# HTML CSS Java Javascript python SQl PHP');
+
 
 for(let j = -5; j<attempts; j++)
 {
@@ -153,6 +148,5 @@ let userName = prompt('Can you type your name please');
 
 alert('Good job '+userName+' you have got '+mark+' out of 7, have a good day');
 
-console.log(attempts);
 
 
