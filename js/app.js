@@ -145,7 +145,7 @@ for(let j = -5; j<attempts; j++)
 }
 
 let userName = prompt('Can you type your name please');
-
+alert('My correct asnsers are: \n 1- my favorite color is black.\n 2- my favourite pet is a dog.\n3- my favourite season is Summer\n4- my favourite music type is Rock and Roll\n5- I am a Clean person \n6- my lucky number 50\n7- and here is the code languages i know:\n'+myAnswer);
 alert('Good job '+userName+' you have got '+mark+' out of 7, have a good day');
 
 
